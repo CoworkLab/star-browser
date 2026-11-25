@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle orbital lens ring inside 66dp safe zone -->
+    <path
+        android:pathData="M54,27 A27,27 0 1,1 27,54"
+        android:strokeAlpha="0.45"
+        android:strokeColor="#FF8FD3FF"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.4" />
+
+    <!-- Primary 4-point Star emblem centered at (54, 54) within [26..82] -->
+    <path android:pathData="M54,26 C55.6,41.8 66.2,52.4 82,54 C66.2,55.6 55.6,66.2 54,82 C52.4,66.2 41.8,55.6 26,54 C41.8,52.4 52.4,41.8 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="78"
+                android:endY="78"
+                android:startX="30"
+                android:startY="30"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFDCD0FF" android:offset="0.55" />
+                <item android:color="#FF8FD3FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crisp secondary companion glint star -->
+    <path
+        android:fillColor="#FF8FD3FF"
+        android:pathData="M36,30 C36.5,33.5 38.5,35.5 42,36 C38.5,36.5 36.5,38.5 36,42 C35.5,38.5 33.5,36.5 30,36 C33.5,35.5 35.5,33.5 36,30 Z" />
+</vector>

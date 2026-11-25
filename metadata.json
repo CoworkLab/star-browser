@@ -1,0 +1,6 @@
+{
+  "name": "Star Browser",
+  "description": "Chromium-based mobile AI browser with Material Design 3 interface, autonomous page agent, multi-provider LLM studio, and mobile sandbox.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
